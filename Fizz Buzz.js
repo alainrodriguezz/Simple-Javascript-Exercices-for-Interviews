@@ -1,3 +1,6 @@
+
+
+
 //==========================================
 //
 // This is the classic Fizz Buzz Interview question
@@ -20,7 +23,7 @@ for (var i = 1; i <= totalNumbers; i++)
 
   if(isMultipleOf3)                   result = "Fizz";
   if(isMultipleOf5)                   result = "Buzz";
-  if(isMultipleOf3 && isMultipleOf5)  result  = "Fizz Buzz";
+  if(isMultipleOf3 && isMultipleOf5)  result = "Fizz Buzz";
 
   console.log(result);
 }
