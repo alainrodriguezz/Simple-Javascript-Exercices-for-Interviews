@@ -16,7 +16,7 @@ for (var i = 1; i <= totalNumbers; i++)
 {
   var isMultipleOf3 = checkIfItsMultiple(i,3);
   var isMultipleOf5 = checkIfItsMultiple(i,5);
-  var result    = i;
+  var result        = i;
 
   if(isMultipleOf3)                   result = "Fizz";
   if(isMultipleOf5)                   result = "Buzz";
